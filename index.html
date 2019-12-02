@@ -8,7 +8,6 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <link rel='stylesheet' href='css/all.min.css'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src='main.js'></script>
 </head>
 <body>
         <div class="container">
@@ -41,14 +40,31 @@
 
         <div class="container">
                 <div class="row">
-                        <img src = https://www.carsonvet.com/sites/default/files/cats-dog-peeking-over-edge_0.jpg height="400px" width="1080px">
-                    <div class="col-md-12">
-                            <center><div class = "quizBox">
+                  <div class="col-md-12">
+                        <img src = https://www.carsonvet.com/sites/default/files/cats-dog-peeking-over-edge_0.jpg class = "responsive">
+                      <div class="row">
+                        <div class="col-md-12">
+                            <div class = "quizBox">
+                                <div id="question-container hide">
+                                <div id="question" class="hide">Question</div>
+                                <div id="answer-buttons" class="btn-grid hide">
+                                  <button class="btn">Answer 1</button>
+                                  <button class="btn">Answer 2</button>
+                                  <button class="btn">Answer 3</button>
+                                  <button class="btn">Answer 4</button>
+                                </div>
+                                  <div class="controls">
+                                      <button id="start-btn" class="start-btn btn">Start</button>
+                                    </div>
+                                    <div class="controls hide">
+                                      <button id="next-btn" class="start-btn btn">Next</button>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                    </div>    
+                       
 
-                                </div></center>
-                                    
-                        <hr>
-
-                        
+<script src='main.js'></script>                    
 </body>
 </html>
